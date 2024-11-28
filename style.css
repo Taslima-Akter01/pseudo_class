@@ -1,0 +1,64 @@
+p{
+    color: blueviolet;
+}
+div p{
+    color: aquamarine;
+}
+div > p{
+    color: brown;
+    font-style: italic;
+    border: 2px solid red;
+}
+ div + h2 {
+    color: darkblue;/* div er por 1st element er jonn*/
+ }
+ div~p{
+    color: rgb(5, 5, 5);
+    /* div er por shob element er jonno*/
+ }
+a:link{
+    color: cadetblue;
+}
+a:visited{
+    color: chocolate;
+}
+a:hover{
+    background-color: blue;
+}
+a:active{
+    color: rgb(56, 238, 86);
+}
+.pp li:first-child{
+    color: blueviolet;
+    
+}
+.pp li:nth-child(2n+1){
+    color: chartreuse;
+    background-color: blue;
+}
+.pp li:nth-child(3){
+    color:palevioletred;
+}
+.pp li:last-child{
+    color: red;
+}
+.ppp::first-line{
+   color: cornflowerblue;
+   font-weight: bold;
+   font-size: 100%;
+}
+.ppp::first-letter{
+    color: blue;
+    font-weight: bold;
+    font-size: 300%;
+}
+h4::before{
+    content: url(image.jpg);
+}
+h4::after{
+    content: url(image.jpg);
+}
+.ppp::selection{
+    background-color: darkmagenta;
+    color: black;
+}
